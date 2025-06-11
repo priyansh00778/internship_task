@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #eef2f3, #dbe9f4);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+section {
+  background: #ffffff;
+  margin: 30px auto;
+  padding: 40px 20px;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul {
+  list-style: square;
+  padding-left: 25px;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card div {
+  flex: 1;
+}
+
+.btn {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #5563c1;
+}
+
+.contact p {
+  margin: 8px 0;
+}
+
+footer {
+  text-align: center;
+  background: #f1f1f1;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}
