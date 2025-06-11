@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #dbeafe, #ffffff);
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about, .our-services, .service-row {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f3f9ff;
+}
+
+.topbar {
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  color: #007BFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.nav-links li:hover {
+  color: #007bff;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+
+.consult-btn {
+  background: #e91e63;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.consult-btn:hover {
+  background: #c2185b;
+}
+
+.hero {
+  background: linear-gradient(to right, #cce7ff, #ffffff),
+              url('https://source.unsplash.com/1920x1080/?technology,office') no-repeat center center/cover;
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(0,0,0,0.4);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.gif-container img {
+  width: 250px;
+  height: auto;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.gif-container img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.card:hover {
+  transform: scale(1.05);
+
+}
+
+.about, .our-services, .service-row, footer {
+  background: linear-gradient(to right, #dbeafe, #ffffff);
+}
+
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
